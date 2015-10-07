@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  font-family: Comfortaa;
+}
+#top {
+  position:fixed;
+  background: #716BFF;
+  width: 100%;
+  height: 20%;
+  z-index: 1
+}
+#name {
+  position: absolute;
+  color: white;
+  top: 50%;
+  bottom: 50%;
+
+}
+#bottom {
+  position:fixed;
+  width: 100%;
+  height:100%;
+  background: #FFB13B;
+  top: 20%;
+  z-index: 1
+}
+
+#container{
+  position:absolute;
+  /*height: 100%;*/
+  width: 100%;
+  /*background-color: red;*/
+  left:0;
+  right:0;
+  top:100%;
+  z-index: 2
+}
+
+.circle {
+  left: 0;
+  right:0;
+  background: yellow;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20%;
+  /*text-align: center;*/
+
+}
+#c1 {
+  position:relative;
+  width:500px;
+  height: 500px;
+  border-radius: 250px;
+
+  margin-bottom: -100%;
+  z-index: 3;
+  /*text-align: center;*/
+  /*line-height: 500px
+  display: table-cell;
+  vertical-align: middle;*/
+}
+#c2 {
+  position:relative;
+  width:500px;
+  height: 500px;
+  border-radius: 250px;
+
+  margin-top: 150%;
+  z-index: 3;
+}
+#c3 {
+  position:relative;
+  width:500px;
+  height: 500px;
+  border-radius: 250px;
+
+  margin-top: 50%;
+  z-index: 3;
+}
+#c4 {
+  background-color: red;
+  position: relative;
+  width:500px;
+  height: 500px;
+  border-radius: 250px;
+
+  margin-top: 50%;
+}
+#c5 {
+  position:relative;
+  width:500px;
+  height: 500px;
+  border-radius: 250px;
+
+  margin-top: 50%;
+  z-index: 3;
+}
+
+.stick {
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+}
+#scroll {
+  position: relative;
+  background: purple;
+  margin-top: 50%;
+}
+
+#c1text {
+  position:relative;
+  text-align: center;
+  top:30%;
+
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+#left, #right{
+  position:relative;
+  top:-50%;
+  width: 100px;
+  height: 100px;
+  z-index: 9999;
+}
+#right {
+  float: right;
+  right: -10px;
+}
+#left {
+  float: left;
+  left: -10px;
+}
+.smallCirc {
+  background-color: red;
+  position: absolute;
+  width:50px;
+  height: 50px;
+  margin:0 auto;
+  border-radius: 25px;
+  /*margin-left: 50%;*/
+  /*margin-right: 50%;*/
+  /*margin-top: 50%;*/
+}
